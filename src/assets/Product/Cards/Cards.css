@@ -1,0 +1,10 @@
+.card {
+    width: 22rem;
+    background-color: rgb(220, 214, 214);
+  }
+  
+.card-image {
+    width: 20rem;
+    height: 20rem;
+  }
+  

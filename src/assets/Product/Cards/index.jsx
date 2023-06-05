@@ -1,5 +1,6 @@
 import React from "react";
 import "./Cards.css"
+import Modal from "../Modal";
 
 
 const Cards = ({items}) => {
@@ -15,6 +16,7 @@ const Cards = ({items}) => {
                             />
                             <p className="font-bold m-1 p-2">{item.titule}</p>
                             <p className="p-4">{item.description}</p>
+                            <button><Modal/></button>
                         
                         </li>
                   

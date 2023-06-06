@@ -15,8 +15,8 @@ const Cards = ({items}) => {
                             alt={item.titule}
                             />
                             <p className="font-bold m-1 p-2">{item.titule}</p>
-                            <p className="p-4">{item.description}</p>
-                            <button><Modal/></button>
+                            
+                            <button><Modal description={item.description}/></button>
                         
                         </li>
                   

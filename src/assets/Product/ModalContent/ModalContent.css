@@ -1,0 +1,19 @@
+.modal-overlay {
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    backdrop-filter: blur(5px); /* Efeito de desfoque no fundo */
+    background-color: rgba(0, 0, 0, 0.5); /* Cor de fundo semi-transparente */
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  
+  .modal {
+    width: 50rem;
+    background-color: #fff;
+    border-radius: 8px;
+    padding: 16px;
+  }

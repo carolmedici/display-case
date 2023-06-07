@@ -2,15 +2,15 @@ import { useState } from 'react';
 import { createPortal } from 'react-dom';
 import ModalContent from '../ModalContent';
 
-export default function Modal({description}) {
+export default function Modal({price,description, titule, image}) {
   const [showModal, setShowModal] = useState(false);
   return (
     <>
-      <button onClick={() => setShowModal(true)}>
-        READ MORE
+      <button className='relative inset-x-3/4 rounded-2xl botton-1 my-2 bg-gray-200 p-2 hover:bg-gray-400 hover:text-white' onClick={() => setShowModal(true)}>
+        SEE MORE
       </button>
       {showModal && createPortal(
-        <ModalContent description={description} onClose={() => setShowModal(false)} />,
+        <ModalContent price={price} titule={titule} image={image} description={description} onClose={() => setShowModal(false)} />,
         document.body
       )}
     </>

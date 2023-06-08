@@ -2,7 +2,7 @@ import { useState } from 'react';
 import { createPortal } from 'react-dom';
 import ModalContent from '../ModalContent';
 
-export default function Modal({price,description, titule, image}) {
+export default function Modal({discount, price, description, titule, image}) {
   const [showModal, setShowModal] = useState(false);
   return (
     <>
@@ -10,7 +10,7 @@ export default function Modal({price,description, titule, image}) {
         SEE MORE
       </button>
       {showModal && createPortal(
-        <ModalContent price={price} titule={titule} image={image} description={description} onClose={() => setShowModal(false)} />,
+        <ModalContent discount={discount} price={price} titule={titule} image={image} description={description} onClose={() => setShowModal(false)} />,
         document.body
       )}
     </>

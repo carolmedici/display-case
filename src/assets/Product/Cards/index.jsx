@@ -16,7 +16,7 @@ const Cards = ({items}) => {
                             />
                             <p className="font-bold m-1 p-2 text-center">{item.titule}</p>
                             
-                            <button><Modal price={item.price} titule={item.titule} image={item.image} description={item.description}/></button>
+                            <button><Modal discount={item.discount} price={item.price} titule={item.titule} image={item.image} description={item.description}/></button>
                         
                         </li>
                   

@@ -1,6 +1,6 @@
 [
 {
-"titule": "Serene Moon",
+"title": "Serene Moon",
 "description": "Adorn yourself with the celestial mystery of this enchanting Moonlit Necklace. This celestial necklace radiates a mystical energy and is perfect for those seeking a unique and intriguing style." ,
 "image":"https://i.imgur.com/cBnRuMh.jpg",
 "id":"01",
@@ -9,21 +9,21 @@
 
 },
 {
-"titule": "Enchanting Drops",
+"title": "Enchanting Drops",
 "description": "The graceful shape of the teardrop, with its smooth and gleaming edges, is a symbol of emotion and beauty. This necklace is an expression of refined elegance and will add a touch of irresistible charm to any ensemble." ,
 "image":"https://i.imgur.com/lK1TOd4.jpg",
 "id":"02",
 "price": 220
 },
 {
-"titule": "Hearts of Love",
+"title": "Hearts of Love",
 "description": "Its romantic and delicate design features two luminous hearts, gleaming with brilliance and affection. Wear this necklace as a symbol of devotion or gift it to someone special, conveying pure and eternal love." ,
 "image":"https://i.imgur.com/vAmD00H.jpg",
 "id":"03",
 "price": 180
 },
 {
-"titule": "Radiant Stone",
+"title": "Radiant Stone",
 "description": "Elevate your style to the next level with the Radiant Stone Necklace. This necklace is the epitome of elegance and sophistication, featuring a modern design that adds a contemporary touch. It is perfect for those seeking a bold and luxurious look." ,
 "image":"https://i.imgur.com/pOtaK8B.jpg",
 "id":"04",
@@ -31,7 +31,7 @@
 "discount": 10
 },
 {
-"titule": "Enchanted Leaf Branch",
+"title": "Enchanted Leaf Branch",
 "description": "Immerse yourself in nature with the Enchanted Leaf Branch Necklace. Use this necklace to add a charming and organic element to your look, standing out from the crowd with exquisite style." ,
 "image":"https://i.imgur.com/SjxSPXe.jpg",
 "id":"05",
@@ -39,7 +39,7 @@
 
 },
 {
-"titule": "Celestial Delicacy",
+"title": "Celestial Delicacy",
 "description": "Awaken your femininity with the Celestial Delicacy Necklace. This delicate necklace adds a touch of celestial elegance to your look, providing a soft and enchanting glow. Perfect for special occasions or to brighten up your everyday with a celestial touch." ,
 "image":"https://i.imgur.com/Jv27DAb.jpg",
 "id":"06",
